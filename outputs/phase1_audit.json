@@ -1,0 +1,26 @@
+{
+  "rows": 200961,
+  "matches": 867,
+  "seasons": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "formats": {
+    "T20I": 106315,
+    "T20": 94646
+  },
+  "duplicate_delivery_keys": 0,
+  "super_over_rows_excluded": 38,
+  "legal_deliveries": 192675,
+  "wide_rows": 7710,
+  "noball_rows": 576,
+  "winner_label_coverage": 0.985365319639134,
+  "notes": [
+    "Overstep treated as no-ball; verify official data dictionary.",
+    "Batter balls faced excludes wides and includes no-balls.",
+    "First-innings par deficit is a phase-level proxy, not a full ball-by-ball par model."
+  ]
+}

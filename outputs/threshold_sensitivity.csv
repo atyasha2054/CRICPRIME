@@ -1,0 +1,7 @@
+role,threshold,top10_count,overlap_with_current
+batters,relaxed,10,5
+batters,current,10,10
+batters,strict,6,3
+bowlers,relaxed,10,6
+bowlers,current,10,10
+bowlers,strict,10,6

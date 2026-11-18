@@ -1,0 +1,39 @@
+{
+  "project": "CLUTCH IQ 2.0",
+  "status": "Research prototype; WPL is a proxy and requires full outcome-distribution leverage before claiming validated HDPI.",
+  "thresholds": {
+    "relaxed": {
+      "pressure_matches": 5,
+      "normal_matches": 5,
+      "pressure_balls": 40,
+      "normal_balls": 75
+    },
+    "current": {
+      "pressure_matches": 8,
+      "normal_matches": 8,
+      "pressure_balls": 60,
+      "normal_balls": 100
+    },
+    "strict": {
+      "pressure_matches": 12,
+      "normal_matches": 12,
+      "pressure_balls": 100,
+      "normal_balls": 150
+    }
+  },
+  "weights": {
+    "msd": 0.25,
+    "wpl": 0.3,
+    "rsi": 0.2,
+    "ssi": 0.15,
+    "pep": 0.1
+  },
+  "required_review": [
+    "Replace WPL proxy with expected absolute WP movement over a past-only next-delivery outcome distribution.",
+    "Validate first-innings par model with chronological historical par curves.",
+    "Run pressure-weight ablation and weight sensitivity.",
+    "Validate win-probability calibration (Brier, log loss, reliability curve) on match-grouped holdout.",
+    "Audit no-ball/Overstep and batter balls-faced scoring convention against official data dictionary.",
+    "Report format-specific T20/T20I robustness and minimum eligible-player coverage."
+  ]
+}
